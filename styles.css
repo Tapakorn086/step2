@@ -22,7 +22,7 @@ form.RegisterForm {
 }
 
 h1 {
-    text-align: center;
+    text-align: start;
     margin-bottom: 20px;
 }
 
@@ -83,7 +83,7 @@ button.btn {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    width: 100%;
+    width: 20%;
 }
 
 button.btn:hover {
