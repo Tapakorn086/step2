@@ -21,3 +21,10 @@ h1 {
 .fullName, .birthDateAndGender, .genDer, .EmailAndPhone, .selectSubject {
     margin-bottom: 15px;
 }
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
