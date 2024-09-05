@@ -10,15 +10,24 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #D16BA5, #86A8E7, #5FFBF1);
+    background: linear-gradient(135deg, #D16BA5, #c23585);
 }
-
+.form {
+    background-color: white;
+    width: 40%;
+    height: 70%;
+    margin: 0 auto; 
+    padding: 30px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+}
 form.RegisterForm {
     background-color: white;
     padding: 30px;
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 400px;
+    width: 500px;
 }
 
 h1 {

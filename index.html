@@ -9,57 +9,59 @@
 </head>
 
 <body>
-    <form class="RegisterForm">
-        <h1>Registration Form</h1>
-        <section class="fullName">
-            <section class="firstName">
-                <label for="firstName">First Name</label>
-                <input type="text" id="firstName" name="firstName" required>
-            </section>
-            <section class="lastName">
-                <label for="lastName">Last Name</label>
-                <input type="text" id="lastName" name="lastName" required>
-            </section>
-        </section>
-        <section class="birthDateAndGender">
-            <section class="birthDate">
-                <label for="birthDay">BirthDay</label>
-                <input type="date" id="birthDay" name="birthDay" required>
-            </section>
-            <section class="gender">
-                <label for="genDer">Gender</label>
-                <section class="sub-gender">
-                    <input type="radio" id="male" name="genDer" value="male" required>
-                    <label for="male">Male</label>
-                    <input type="radio" id="female" name="genDer" value="female" required>
-                    <label for="female">Female</label>
+    <div class="form">
+        <form class="RegisterForm">
+            <h1>Registration Form</h1>
+            <section class="fullName">
+                <section class="firstName">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </section>
+                <section class="lastName">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="lastName" required>
                 </section>
             </section>
-        </section>
-        <section class="EmailAndPhone">
-            <section class="email">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
+            <section class="birthDateAndGender">
+                <section class="birthDate">
+                    <label for="birthDay">BirthDay</label>
+                    <input type="date" id="birthDay" name="birthDay" required>
+                </section>
+                <section class="gender">
+                    <label for="genDer">Gender</label>
+                    <section class="sub-gender">
+                        <input type="radio" id="male" name="genDer" value="male" required>
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="genDer" value="female" required>
+                        <label for="female">Female</label>
+                    </section>
+                </section>
             </section>
-            <section class="phone">
-                <label for="phoneNumber">Phone Number</label>
-                <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <section class="EmailAndPhone">
+                <section class="email">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </section>
+                <section class="phone">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                </section>
             </section>
-        </section>
-        <section class="selectSubject">
-            <section class="subject">
-                <label for="subject">Subject</label>
-                <select id="subject" name="subject" required>
-                    <option value="">Choose option</option>
-                    <option value="Math">Math</option>
-                    <option value="Science">Science</option>
-                    <option value="English">English</option>
-                    <option value="History">History</option>
-                </select>
+            <section class="selectSubject">
+                <section class="subject">
+                    <label for="subject">Subject</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Choose option</option>
+                        <option value="Math">Math</option>
+                        <option value="Science">Science</option>
+                        <option value="English">English</option>
+                        <option value="History">History</option>
+                    </select>
+                </section>
             </section>
-        </section>
-        <button type="submit" class="btn">Submit</button>
-    </form>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
 
 </body>
 
