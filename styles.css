@@ -1,37 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
 body {
-    font-family: sans-serif;
-    background-color: #E8A2E0;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #D16BA5, #86A8E7, #5FFBF1);
 }
 
-.RegisterForm {
+form.RegisterForm {
     background-color: white;
     padding: 30px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 450px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
 }
+
 h1 {
+    text-align: center;
     margin-bottom: 20px;
 }
-.fullName, .birthDateAndGender, .genDer, .EmailAndPhone, .selectSubject {
+
+section {
     margin-bottom: 15px;
+}
+
+.fullName,
+.birthDateAndGender,
+.EmailAndPhone {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
-.firstName, .lastName, .birthDate, .gender, .email, .phone, .subject{
-    display: flex;
-    flex-direction: column;
+
+section label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
-select {
+
+section input,
+section select {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 3px;
-    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.firstName, 
+.lastName, 
+.birthDate, 
+.gender, 
+.email, 
+.phone, 
+.subject {
+    width: 48%;
+}
+
+.gender {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-gender {
+    display: flex;
+    align-items: center;
+}
+
+.sub-gender label {
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+button.btn {
+    background-color: #4A90E2;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button.btn:hover {
+    background-color: #357ABD;
 }
