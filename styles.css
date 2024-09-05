@@ -13,13 +13,20 @@ body {
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    width: 450px;
 }
 h1 {
     margin-bottom: 20px;
 }
 .fullName, .birthDateAndGender, .genDer, .EmailAndPhone, .selectSubject {
     margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.firstName, .lastName, .birthDate, .gender, .email, .phone, .subject{
+    display: flex;
+    flex-direction: column;
 }
 select {
     width: 100%;
